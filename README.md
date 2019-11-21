@@ -26,3 +26,8 @@
 
 		$ mpicc -o hello mpi_hello_world.cpp
 		$ mpiexec -np 4 ./hello
+
+2. [Using MPI Send and Receive](MPI/Send%20Receive/snd_rcv.c)
+
+		$ mpicc -o snd_rcv snd_rcv.c
+		$ mpiexec -np 4 ./snd_rcv
