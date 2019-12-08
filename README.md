@@ -1,6 +1,10 @@
 # Parallel Programming using Open MP / MPI
 
 ## Open MP
+### Tutorials
+[NPTEL Course](https://nptel.ac.in/courses/106/102/106102163/)
+
+### Basic Programs
 1. [Hello World](Open%20MP/Hello%20World/helloWorld.cpp)
 
 		$ g++ -fopenmp -o hello helloWorld.cpp
@@ -31,3 +35,8 @@
 
 		$ mpicc -o snd_rcv snd_rcv.c
 		$ mpiexec -np 4 ./snd_rcv
+
+## Contribution Guidelines
+1. Create an issue for an algorithm you would like to implement using OpenMP/MPI.
+2. Create a new branch and start working on your issue.
+3. Commit changes and send a pull request.
